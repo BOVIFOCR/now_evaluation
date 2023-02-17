@@ -139,7 +139,9 @@ def metric_computation(dataset_folder,
 
         print('Processing %d of %d (%s, %s, %s)' % (i+1, len(lines), subject, experiments, filename))
 
-        predicted_mesh_path = os.path.join(predicted_mesh_folder, subject, experiments, filename[:-4] + '.obj')
+        # predicted_mesh_path = os.path.join(predicted_mesh_folder, subject, experiments, filename[:-4] + '.obj')   # original
+        predicted_mesh_path = os.path.join(predicted_mesh_folder, subject, experiments, filename[:-4] + '.ply')     # Bernardo
+        
         predicted_landmarks_path_npy = os.path.join(predicted_mesh_folder, subject, experiments, filename[:-4] + '.npy')
         predicted_landmarks_path_txt = os.path.join(predicted_mesh_folder, subject, experiments, filename[:-4] + '.txt')       
 

@@ -135,4 +135,3 @@ dmypy.json
 # Bernardo
 *.o
 *.pyx
-sbody/alignment/mesh_distance/eigen/.git
