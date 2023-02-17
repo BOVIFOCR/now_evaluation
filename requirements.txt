@@ -1,5 +1,5 @@
 # numpy==1.19.5  # original
-numpy==1.24.2    # Bernardo
+numpy==1.21.6    # Bernardo
 scipy==1.5.4
 matplotlib==3.3.4
 werkzeug==1.0.1
