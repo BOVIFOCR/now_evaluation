@@ -129,5 +129,10 @@ dmypy.json
 .pyre/
 
 # Folders
-sbody/
-smpl_webuser/
+# sbody/
+# smpl_webuser/
+
+# Bernardo
+*.o
+*.pyx
+sbody/alignment/mesh_distance/eigen/.git
